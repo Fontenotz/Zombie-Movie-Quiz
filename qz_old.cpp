@@ -71,25 +71,25 @@ void Quiz::Order()
 
 	for (int q=0;q<10;q++)
 	{
-		if (order[q]==1)
+		if (q=1)
 			q1();
-		else if (order[q]==2)
+		else if (q=2)
 			q2();
-		else if (order[q]==3)
+		else if (q=3)
 			q3();
-		else if (order[q]==4)
+		else if (q=4)
 			q4();
-		else if (order[q]==5)
+		else if (q=5)
 			q5();
-		else if (order[q]==6)
+		else if (q=6)
 			q6();
-		else if (order[q]==7)
+		else if (q=7)
 			q7();
-		else if (order[q]==8)
+		else if (q=8)
 			q8();
-		else if (order[q]==9)
+		else if (q=9)
 			q9();
-		else if (order[q]==10)
+		else if (q=10)
 			q10();
 
 		system("pause");
